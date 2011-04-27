@@ -1,0 +1,17 @@
+Detects whether you are in a linked iframe or frameset (such as a Digg bar or on Linkive), and breaks out of it. 
+
+This is a simple and straightforward script meant to break out of those annoying toolbars that some link sharing sites put on pages. In addition, it detects sites with intermediary landing pages which appear to serve little purpose other than increasing page impressions for ad revenue and automatically forwards you to the destination page.
+
+Supported Sites:
+-BigResource.com
+-DevSnippets.com
+-Digg.com
+-DZone.com
+-Ht.ly and Ow.ly (HootSuite's URL shorteners)
+-Linkive.com
+-PhotoshopLady.com
+-StumbleUpon.com
+-Tutorialized.com
+-TutorialMagazine.com
+
+If you know of any sites that this script doesn't support, let me know, and I will update it to include them!
