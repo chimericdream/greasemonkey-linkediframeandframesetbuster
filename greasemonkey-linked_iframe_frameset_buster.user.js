@@ -78,6 +78,27 @@
             var iframe = document.getElementById('mainFrame');
             if (iframe !== null) {
                 window.location = iframe.src;
+                return;
+            }
+            // PhotoshopLady.com
+            var pllink = document.getElementById('bigImage');
+            if (pllink !== null) {
+                if (pllink.href !== null) {
+                    window.location = pllink.href;
+                    return;
+                }
+            }
+            // Added 3/24/10
+            var h2els = document.getElementsByTagName('h2');
+            for (var i in h2els) {
+                var h2as = h2els[i].getElementsByTagName('a');
+                for (var j in h2as) {
+                    var atitle = h2as[j].getAttribute('title');
+                    if (atitle.substr(0, 17) == 'Permanent Link to') {
+                        window.location = h2as[j].href;
+                        return;
+                    }
+                }
             }
             break;
 
