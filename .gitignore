@@ -1,0 +1,49 @@
+##############
+### OSX Stuff
+.DS_Store
+Icon?
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+##############
+
+##############
+### NetBeans stuff
+nbproject/
+nbactions.xml
+##############
+
+##############
+### Windows Stuff
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+##############
+
+##############
+### CVS & SVN Stuff
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+.svn/
+##############
+
+##############
+### TextMate Stuff
+*.tmproj
+*.tmproject
+tmtags
+##############
+
+##############
+### Eclipse Stuff
+.classpath
+.project
+.settings/
+##############
