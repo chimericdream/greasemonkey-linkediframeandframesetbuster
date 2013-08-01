@@ -2,6 +2,8 @@
 // @name           Linked Iframe & Frameset Buster
 // @namespace      http://code.chimericdream.com/
 // @description    Detects whether you are in a linked iframe (such as a Digg bar or on Linkive), and breaks out of it.
+// @updateURL      https://raw.github.com/chimericdream/greasemonkey-linkediframeandframesetbuster/master/greasemonkey-linked_iframe_frameset_buster.js
+// @downloadURL    https://raw.github.com/chimericdream/greasemonkey-linkediframeandframesetbuster/master/greasemonkey-linked_iframe_frameset_buster.js
 // @version        1.9
 // @include        http://*.linkive.com/*
 // @include        http://*.digg.com/*
